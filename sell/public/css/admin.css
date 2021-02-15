@@ -1,0 +1,83 @@
+#admin-container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#sidebar{
+    flex-basis: 20%;
+    background: var(--primary-bg);
+}
+#sidebar-title{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+#siderbar-title h3 i{
+    margin-right: 4px;
+}
+#sidebar-list ul li{
+    font-size: 18px;
+    list-style-type: none;
+    margin-left: 20px;
+}
+#sidebar-list ul li:last-child{
+    padding-bottom: 10px;
+}
+#sidebar-list ul li a{
+    text-decoration: none;
+}
+#sidebar-list ul li a i{
+    margin-right: 4px;
+}
+#main-content{
+    flex-basis: 80%;
+}
+#main-nav{
+    height: 50px;
+    background: #fff;
+}
+#main-nav ul{
+    overflow: hidden;
+    list-style-type: none;
+}
+#main-nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+#main-nav ul li img{
+    margin-top: 4px;
+    margin-left: 15px;
+    width: 40px;
+}
+#home-top h3{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 20px;
+}
+#home-top{
+    margin-left: 10px;
+}
+#menu-card{
+    border-radius: 5px;
+    background: #fff;
+    margin: 3px;
+    flex-basis: 23%;
+}
+#menu-card #row{
+    padding: 10px;
+}
+#card-1-1{
+    flex-basis: 20%;
+}
+#card-1-1 i{
+    margin: 3px;
+    font-size: 30px;
+}
+#card-1-2 p{
+    font-size: 18px;
+    font-weight: bold;
+}
+#card-1-2{
+    flex-basis: 80%;
+}
+#home-content{
+    margin: 10px;
+}

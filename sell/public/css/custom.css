@@ -1,0 +1,481 @@
+/*********** root variables *********/
+:root {
+    --primary-bg: #f87a6e
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #DCDCDC;
+}
+nav{
+    background: var(--primary-bg);
+}
+#header{
+    margin-top: -20px;
+    background: var(--primary-bg);
+    display: flex;
+    flex-wrap: wrap;
+}
+#header-col-3{
+    padding: 20px;
+    flex-basis: 30%;
+    align-items: center;
+    text-align: center;
+}
+#header-col-3 img{
+    width: 100%;
+}
+#header-col-6{
+    flex-basis: 40%;
+    align-items: center;
+    text-align: center;
+}
+#header-col-6 p{
+    color: #fff;
+    margin-top: 70px;
+    font-size: 18px;
+}
+#dark{
+    background: #1a1a00;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#dark i{
+    font-size: 15px;
+}
+#header-form-input{
+    width: 400px;
+    height: 45px;
+}
+#header-form-btn{
+    color: #fff;
+    height: 45px;
+    margin-top: 8px;
+    margin-left: -2px;
+    background:  #FF9933;
+}
+#header-col-3{
+    flex-basis: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/******************* section 1 ************************/
+#mobile{
+    margin-top: 150px;
+}
+#m-col-3{
+    display: none;
+}
+#section1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+#product-link{
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+}
+#card{
+    background: #ffffff;
+    border-radius: 5px;
+}
+#col-3{
+    flex-basis: 25%;
+}
+#menu{
+    padding: 10px;
+}
+#menu p img{
+    width: 30px;
+    margin-right: 10px;
+}
+#col-7{
+    flex-basis: 70%;
+    margin-left: 10px;
+}
+#row{
+    display: flex;
+    flex-wrap: wrap;
+}
+#col-4{
+    flex-basis: 24%;
+    margin: 3px;
+}
+#p-img{
+    width: 100%;
+    height: 150px;
+}
+#love{
+    font-size: 20px;
+    font-weight: bold;
+    color:var(--primary-bg);
+    background: #fff;
+    margin-bottom: 2px;
+}
+#icon{
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    border-radius: 50%;
+}
+#p-seller{
+    color:var(--primary-bg);
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+
+
+/********************* item styling *****************/
+#small-container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#i-col-7{
+    flex-basis: 70%;
+}
+#i-col-7 img{
+    width: 100%;
+    height: 400px;
+    border-top: 3px solid green;
+}
+#item-col-4{
+    flex-basis: 19%;
+    margin: 3px;
+}
+#item-col-4 img{
+    width: 100%;
+    height: 100px;
+}
+#i-col-3{
+    flex-basis: 28%;
+    margin-left: 10px;
+}
+#card1{
+    background: #fff;
+}
+#p-header{
+    background: var(--primary-bg);
+    height: 60px;
+}
+#p-header h3{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+#p-seller{
+    text-align: center;
+    margin: 10px;
+}
+#p-seller img{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+#p-seller h3{
+    color: grey;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#p-seller a{
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+#p-info h3{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#p-info-div p{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#desc{
+    margin: 20px;
+}
+#collection{
+    padding: 10px;
+}
+#collection h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#caution{
+    color: red;
+}
+#similar{
+    max-height: 200px;
+}
+#similar-col-1{
+    flex-basis: 30%;
+}
+#similar-col-2{
+    flex-basis: 70%;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+#similar-col-1 img{
+    width: 200px;
+    height: 200px;
+}
+.card-link{
+    padding-bottom: 30px;
+    color: grey;
+}
+
+
+
+/*********************  Confirm page *******************/
+#confirm{
+    padding: 20px;
+}
+#col-6{
+    flex-basis: 50%;
+    padding-left: 10px;
+}
+.b{
+    border-left: 1px solid grey;
+}
+
+
+
+/*********************  Confirm page *******************/
+#a-info{
+    padding: 20px;
+}
+#a-title{
+    height: 50px;
+    background: var(--primary-bg);
+    color: #fff;
+}
+#a-title h3{
+    padding-top: 10px;
+}
+#a-col-1{
+    flex-basis: 28%;
+}
+#a-col-1 img{
+    border-radius: 50%;
+    width: 200px;
+}
+#a-col-2{
+    flex-basis: 70%;
+}
+#three{
+    margin-top: 10px;
+}
+
+
+/*********************  shop page *******************/
+#s-col-3{
+    flex-basis: 28%;
+}
+#s-col-7{
+    flex-basis: 70%;
+}
+
+
+/************************ notifications *******************/
+#note-info{
+    padding: 30px;
+}
+
+
+/************************* messages ****************************/
+#messages{
+    margin-left: 30px;
+    margin-right: 30px;
+    background: #F5F5F5;
+}
+#ms-col-3{
+    box-shadow: 1px 0 5px -2px #888;
+    flex-basis: 30%;
+}
+#ms-col-3 #card{
+    padding: 10px;
+}
+#ms-col-9{
+    flex-basis: 70%;
+}
+#ms-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+#chat-col-3{
+    flex-basis: 25%;
+}
+#chat-col-7{
+    flex-basis: 74%;
+}
+#chats{
+    border: 1px solid grey;
+    padding-top: 3px;
+    border-radius: 5px;
+    padding-bottom: -5px;
+    margin-bottom: 5px;
+}
+#chat-col-3 img{
+    border-radius: 30px;
+    width: 60px;
+    max-height: 60px;
+}
+#chat-col-7 h5{
+    margin-bottom: -2px;
+}
+#chat-col-7 p{
+    color: grey;
+    padding-top: -5px;
+}
+.container1{
+    padding: 20px;
+}
+.message-blue {
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #A8DDFD;
+    width: 200px;
+    height: 50px;
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+    border: 1px solid #97C6E3;
+    border-radius: 10px;
+}
+
+.message-orange {
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: calc(100% - 240px);
+    padding: 10px;
+    background-color: #f8e896;
+    width: 200px;
+    height: 50px;
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+    border: 1px solid #dfd087;
+    border-radius: 10px;
+}
+
+.message-content {
+    padding: 0;
+    margin: 0;
+}
+
+.message-timestamp-right {
+    position: absolute;
+    font-size: .85em;
+    font-weight: 300;
+    bottom: 5px;
+    right: 5px;
+}
+
+.message-timestamp-left {
+    position: absolute;
+    font-size: .85em;
+    font-weight: 300;
+    bottom: 5px;
+    left: 5px;
+}
+
+.message-blue:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid #A8DDFD;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    top: 0;
+    left: -15px;
+}
+
+.message-blue:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 17px solid #97C6E3;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    top: -1px;
+    left: -17px;
+}
+
+.message-orange:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #f8e896;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    bottom: 0;
+    right: -15px;
+}
+
+.message-orange:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 17px solid #dfd087;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    bottom: -1px;
+    right: -17px;
+}
+
+/*******************  Profile page **************************/
+#col-p-4{
+    margin-top: 20px;
+    flex-basis: 25%;
+}
+#col-p-8{
+    margin-left: 5px;
+    margin-top: 20px;
+    flex-basis: 74%;
+}
+#profile-header{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
+#edit-pen{
+    margin-right: 10px;
+    font-size: 17px;
+    color: indianred;
+}
+#profile-body{
+    margin-left: 10px;
+}
+#profile-name{
+    font-size: 16px;
+}
+#profile-email{
+    margin-top: -5px;
+    color: gray;
+}
+#profile-link{
+    font-weight: bold;
+    color: indianred;
+    font-size: 16px;
+    font-family: sans-serif;
+}
